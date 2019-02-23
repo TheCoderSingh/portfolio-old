@@ -23,5 +23,23 @@
 }
 
 .desc {
-	font-size: 18px;
+	font-size: 1.15em;
+}
+
+.fab {
+	color: #444 !important;
+	font-size: 1.25em;
+}
+
+#abtme {
+	border: 2px solid darkslategray;
+	background: transparent;
+	color: darkslategray;
+	border-radius: 0px;
+	font-size: 0.7em;
+}
+
+#abtme:hover {
+	background-color: darkslategray;
+	color: #FFF;
 }

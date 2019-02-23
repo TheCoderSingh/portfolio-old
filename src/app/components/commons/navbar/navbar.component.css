@@ -1,0 +1,11 @@
+.navbar {
+	font-family: 'Lato', sans-serif;
+}
+
+#navbarSupportedContent a {
+	color: #555 !important;
+}
+
+.navbar-brand {
+	font-size: 1.25em;
+}
