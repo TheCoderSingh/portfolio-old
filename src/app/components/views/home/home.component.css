@@ -1,0 +1,27 @@
+.picjas {
+	max-height: 350px;
+}
+
+.greet, .name, .title {
+	font-family: 'Lato', sans-serif;
+}
+
+.greet {
+	font-size: 2.2em;
+	color: darkcyan;
+}
+
+.name {
+	font-size: 3em;
+	font-weight: bold;
+	color: darkslategray;
+}
+
+.title {
+	font-size: 3.2em;
+	font-weight: bold;
+}
+
+.desc {
+	font-size: 18px;
+}
