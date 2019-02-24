@@ -63,6 +63,12 @@
 }
 
 .skill {
-	max-width: 120px;
-	max-height: 120px;
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.skilldesc {
+	font-family: "Lato", sans-serif;
+	padding-left: 10%;
+	padding-right: 10%;
 }
