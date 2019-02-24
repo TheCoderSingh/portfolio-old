@@ -48,7 +48,8 @@
 	color: #fff;
 }
 
-.skills {
+.skills,
+#exp {
 	margin-top: 7rem;
 }
 
@@ -72,4 +73,33 @@
 	font-family: "Lato", sans-serif;
 	padding-left: 10%;
 	padding-right: 10%;
+}
+
+#exp {
+	background-color: #efefef;
+	padding-bottom: 60px;
+}
+
+.exptxt {
+	color: darkslategray;
+}
+
+.jobtitle,
+.company,
+.duration {
+	font-family: "Roboto", sans-serif;
+}
+
+.jobtitle {
+	font-size: 1.5em;
+	color: #5d56bb;
+	font-weight: bold;
+}
+
+.company {
+	font-size: 1.2em;
+}
+
+.duration {
+	font-size: 0.9em;
 }
