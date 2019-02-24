@@ -1,6 +1,7 @@
 .picjas {
 	max-height: 350px;
-	border: 10px solid darkslategray;
+	border: 7px solid darkslategray;
+	border-radius: 1%;
 }
 
 .greet,
