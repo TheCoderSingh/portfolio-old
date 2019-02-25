@@ -145,6 +145,41 @@
 	text-decoration: none;
 }
 
+#accordionExample {
+	display: none;
+}
+
+.projmobhead {
+	border: none;
+}
+
+.projmobhead:hover {
+	cursor: pointer;
+}
+
+#headingOne,
+#headingTwo,
+#headingThree {
+	border: none;
+	background-color: #efefef;
+	border-bottom: 1px solid #bbb;
+}
+
+#headingOne button,
+#headingTwo button,
+#headingThree button {
+	color: #000;
+	font-size: 1.25rem;
+	font-family: "Lato", sans-serif;
+}
+
+#headingOne i,
+#headingTwo i,
+#headingThree i {
+	float: right;
+	font-size: 1.25rem;
+}
+
 @media only screen and (max-width: 767px) {
 	.introsec {
 		text-align: center;
@@ -169,5 +204,17 @@
 
 	.greet {
 		font-size: 1.9em;
+	}
+
+	#accordionExample {
+		display: block;
+	}
+
+	#desktopproj {
+		display: none;
+	}
+
+	#expcont {
+		text-align: center !important;
 	}
 }

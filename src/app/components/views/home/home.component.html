@@ -153,7 +153,7 @@
 		<div class="container">
 			<hr />
 			<div class="row align-items-center">
-				<div class="col-md-6 text-justify">
+				<div class="col-md-6 text-justify" id="expcont">
 					<div id="expleft">
 						<div class="row mt-5">
 							<div class="col-md-12">
@@ -200,7 +200,7 @@
 						<div class="row mb-5">
 							<div class="col-md-12">
 								<div class="row">
-									<div class="col-md-6 job">
+									<div class="col-md-6 job mb-5">
 										<div class="jobtitle">
 											<p class="mb-0">Bootcamp Intern</p>
 										</div>
@@ -260,108 +260,337 @@
 					</p>
 				</div>
 			</div>
-			<div class="row text-center">
-				<div class="col-md-4">
-					<p class="projhead">
-						<i class="fas fa-briefcase"></i> Projects
-					</p>
+			<div id="desktopproj">
+				<div class="row text-center">
+					<div class="col-md-4">
+						<p class="projhead">
+							<i class="fas fa-briefcase"></i> Projects
+						</p>
+					</div>
+					<div class="col-md-4">
+						<p class="projhead">
+							<i class="far fa-newspaper"></i> Articles
+						</p>
+					</div>
+					<div class="col-md-4">
+						<p class="projhead">
+							<i class="fas fa-user-ninja"></i> Talks
+						</p>
+					</div>
 				</div>
-				<div class="col-md-4">
-					<p class="projhead">
-						<i class="far fa-newspaper"></i> Articles
-					</p>
-				</div>
-				<div class="col-md-4">
-					<p class="projhead">
-						<i class="fas fa-user-ninja"></i> Talks
-					</p>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">Jumpster Template</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Technologies:</span>
+								HTML, CSS, Javascript, jQuery
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a
+									href="http://jumpster.netscrewtech.com/"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
+						</div>
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">EMI Calculator</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Technologies:</span>
+								Bootstrap & Angular 7
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a
+									href="http://emicalculators.net/"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
+						</div>
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">Elixir</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Technologies:</span>
+								HTML, CSS, Javascript, jQuery
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a href="#" target="_blank">Click Here</a>
+							</p>
+						</div>
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">To-Do Web App</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Technologies:</span>
+								Angular 4 & Bootstrap
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a
+									href="https://thecodersingh.github.io/todo/"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
+						</div>
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">Phonebook Web App</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Technologies:</span>
+								Angular 4 & Bootstrap
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a
+									href="https://thecodersingh.github.io/phonebook/"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">The World of Pawn</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Date Published:</span>
+								January 7, 2019
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a
+									href="https://medium.com/netscrew-technologies/the-world-of-pawn-a80cd2731606"
+									target="_blank"
+									>Click Here</a
+								>
+							</p>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="proj mb-3">
+							<p class="projtitle mb-0">Git & GitHub</p>
+							<p class="projtech mb-0">
+								<span class="projsubhead">Location:</span>
+								Apeejay College of Fine Arts
+							</p>
+							<p class="projlink">
+								<span class="projsubhead">View: </span>
+								<a href="#" target="_blank">Click Here</a>
+							</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-md-4">
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">Jumpster Template</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Technologies:</span> HTML,
-							CSS, Javascript, jQuery
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a
-								href="http://jumpster.netscrewtech.com/"
-								target="_blank"
-								>Click Here</a
-							>
-						</p>
+			<div class="accordion" id="accordionExample">
+				<div class="card" class="projmobhead">
+					<div class="card-header" id="headingOne">
+						<h2
+							class="mb-0"
+							data-toggle="collapse"
+							data-target="#collapseOne"
+							aria-expanded="true"
+							aria-controls="collapseOne"
+						>
+							<button class="btn btn-link" type="button">
+								Projects
+							</button>
+							<i class="fas fa-caret-down"></i>
+						</h2>
 					</div>
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">EMI Calculator</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Technologies:</span>
-							Bootstrap & Angular 7
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a href="http://emicalculators.net/" target="_blank"
-								>Click Here</a
-							>
-						</p>
-					</div>
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">Elixir</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Technologies:</span> HTML,
-							CSS, Javascript, jQuery
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a href="#" target="_blank">Click Here</a>
-						</p>
-					</div>
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">To-Do Web App</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Technologies:</span>
-							Angular 4 & Bootstrap
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a
-								href="https://thecodersingh.github.io/todo/"
-								target="_blank"
-								>Click Here</a
-							>
-						</p>
+					<div
+						id="collapseOne"
+						class="collapse hide"
+						aria-labelledby="headingOne"
+						data-parent="#accordionExample"
+					>
+						<div class="card-body">
+							<div class="row">
+								<div class="col-md-4">
+									<div class="proj mb-3">
+										<p class="projtitle mb-0">
+											Jumpster Template
+										</p>
+										<p class="projtech mb-0">
+											<span class="projsubhead"
+												>Technologies:</span
+											>
+											HTML, CSS, Javascript, jQuery
+										</p>
+										<p class="projlink">
+											<span class="projsubhead"
+												>View:
+											</span>
+											<a
+												href="http://jumpster.netscrewtech.com/"
+												target="_blank"
+												>Click Here</a
+											>
+										</p>
+									</div>
+									<div class="proj mb-3">
+										<p class="projtitle mb-0">
+											EMI Calculator
+										</p>
+										<p class="projtech mb-0">
+											<span class="projsubhead"
+												>Technologies:</span
+											>
+											Bootstrap & Angular 7
+										</p>
+										<p class="projlink">
+											<span class="projsubhead"
+												>View:
+											</span>
+											<a
+												href="http://emicalculators.net/"
+												target="_blank"
+												>Click Here</a
+											>
+										</p>
+									</div>
+									<div class="proj mb-3">
+										<p class="projtitle mb-0">Elixir</p>
+										<p class="projtech mb-0">
+											<span class="projsubhead"
+												>Technologies:</span
+											>
+											HTML, CSS, Javascript, jQuery
+										</p>
+										<p class="projlink">
+											<span class="projsubhead"
+												>View:
+											</span>
+											<a href="#" target="_blank"
+												>Click Here</a
+											>
+										</p>
+									</div>
+									<div class="proj mb-3">
+										<p class="projtitle mb-0">
+											To-Do Web App
+										</p>
+										<p class="projtech mb-0">
+											<span class="projsubhead"
+												>Technologies:</span
+											>
+											Angular 4 & Bootstrap
+										</p>
+										<p class="projlink">
+											<span class="projsubhead"
+												>View:
+											</span>
+											<a
+												href="https://thecodersingh.github.io/todo/"
+												target="_blank"
+												>Click Here</a
+											>
+										</p>
+									</div>
+									<div class="proj mb-3">
+										<p class="projtitle mb-0">
+											Phonebook Web App
+										</p>
+										<p class="projtech mb-0">
+											<span class="projsubhead"
+												>Technologies:</span
+											>
+											Angular 4 & Bootstrap
+										</p>
+										<p class="projlink">
+											<span class="projsubhead"
+												>View:
+											</span>
+											<a
+												href="https://thecodersingh.github.io/phonebook/"
+												target="_blank"
+												>Click Here</a
+											>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">The World of Pawn</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Date Published:</span>
-							January 7, 2019
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a
-								href="https://medium.com/netscrew-technologies/the-world-of-pawn-a80cd2731606"
-								target="_blank"
-								>Click Here</a
-							>
-						</p>
+				<div class="card" class="projmobhead">
+					<div class="card-header" id="headingTwo">
+						<h2
+							class="mb-0"
+							data-toggle="collapse"
+							data-target="#collapseTwo"
+							aria-expanded="true"
+							aria-controls="collapseTwo"
+						>
+							<button class="btn btn-link" type="button">
+								Articles
+							</button>
+							<i class="fas fa-caret-down"></i>
+						</h2>
+					</div>
+					<div
+						id="collapseTwo"
+						class="collapse hide"
+						aria-labelledby="headingTwo"
+						data-parent="#accordionExample"
+					>
+						<div class="card-body">
+							<div class="proj mb-3">
+								<p class="projtitle mb-0">The World of Pawn</p>
+								<p class="projtech mb-0">
+									<span class="projsubhead"
+										>Date Published:</span
+									>
+									January 7, 2019
+								</p>
+								<p class="projlink">
+									<span class="projsubhead">View: </span>
+									<a
+										href="https://medium.com/netscrew-technologies/the-world-of-pawn-a80cd2731606"
+										target="_blank"
+										>Click Here</a
+									>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
-				<div class="col-md-4">
-					<div class="proj mb-3">
-						<p class="projtitle mb-0">Git & GitHub</p>
-						<p class="projtech mb-0">
-							<span class="projsubhead">Location:</span> Apeejay
-							College of Fine Arts
-						</p>
-						<p class="projlink">
-							<span class="projsubhead">View: </span>
-							<a href="#" target="_blank">Click Here</a>
-						</p>
+				<div class="card" class="projmobhead">
+					<div class="card-header" id="headingThree">
+						<h2
+							class="mb-0"
+							data-toggle="collapse"
+							data-target="#collapseThree"
+							aria-expanded="true"
+							aria-controls="collapseThree"
+						>
+							<button class="btn btn-link" type="button">
+								Talks
+							</button>
+							<i class="fas fa-caret-down"></i>
+						</h2>
+					</div>
+					<div
+						id="collapseThree"
+						class="collapse hide"
+						aria-labelledby="headingThree"
+						data-parent="#accordionExample"
+					>
+						<div class="card-body">
+							<div class="proj mb-3">
+								<p class="projtitle mb-0">Git & GitHub</p>
+								<p class="projtech mb-0">
+									<span class="projsubhead">Location:</span>
+									Apeejay College of Fine Arts
+								</p>
+								<p class="projlink">
+									<span class="projsubhead">View: </span>
+									<a href="#" target="_blank">Click Here</a>
+								</p>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
