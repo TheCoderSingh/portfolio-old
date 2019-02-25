@@ -48,8 +48,7 @@
 	color: #fff;
 }
 
-.skills,
-#exp {
+.skills {
 	margin-top: 7rem;
 }
 
@@ -58,6 +57,7 @@
 	font-size: 2.5em;
 	font-weight: bold;
 	font-family: "Lato", sans-serif;
+	padding-top: 3rem;
 }
 
 .subtxt {
@@ -76,8 +76,8 @@
 }
 
 #exp {
-	background-color: #efefef;
-	padding-bottom: 60px;
+	/* background-color: #efefef;
+	padding-bottom: 60px; */
 }
 
 .exptxt {
@@ -87,13 +87,14 @@
 .jobtitle,
 .company,
 .duration {
-	font-family: "Roboto", sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 .jobtitle {
-	font-size: 1.5em;
-	color: #5d56bb;
-	font-weight: bold;
+	font-size: 1.3em;
+	/* color: #5d56bb; */
+	/* font-weight: bold; */
+	color: #4a148c;
 }
 
 .company {
@@ -102,4 +103,13 @@
 
 .duration {
 	font-size: 0.9em;
+}
+
+#skillsection {
+	background-color: #efefef;
+	padding-bottom: 60px;
+}
+
+#expright {
+	float: right;
 }
