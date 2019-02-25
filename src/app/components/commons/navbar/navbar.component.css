@@ -1,5 +1,5 @@
 .navbar {
-	font-family: 'Lato', sans-serif;
+	font-family: "Lato", sans-serif;
 }
 
 #navbarSupportedContent a {
@@ -8,4 +8,10 @@
 
 .navbar-brand {
 	font-size: 1.25em;
+}
+
+@media only screen and (max-width: 767px) {
+	#navbarbtn {
+		display: none !important;
+	}
 }
