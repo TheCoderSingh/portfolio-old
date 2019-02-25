@@ -127,4 +127,16 @@
 	.office {
 		display: none;
 	}
+
+	.title {
+		font-size: 2.8em;
+	}
+
+	.name {
+		font-size: 2.5em;
+	}
+
+	.greet {
+		font-size: 1.9em;
+	}
 }
