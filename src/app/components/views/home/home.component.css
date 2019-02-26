@@ -173,9 +173,9 @@
 	font-family: "Lato", sans-serif;
 }
 
-#headingOne i,
-#headingTwo i,
-#headingThree i {
+.fa-caret-down,
+.fa-caret-down,
+.fa-caret-down {
 	float: right;
 	font-size: 1.25rem;
 }
