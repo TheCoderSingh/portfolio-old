@@ -1,0 +1,9 @@
+{
+	"search.showLineNumbers": true,
+	"editor.insertSpaces": false,
+	"editor.rulers": [
+		140
+	],
+	"html.format.wrapLineLength": 0,
+	"editor.maxTokenizationLineLength": 24000
+}
